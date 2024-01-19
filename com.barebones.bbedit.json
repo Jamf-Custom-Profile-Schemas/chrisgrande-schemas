@@ -108,6 +108,36 @@
                 "infoText": "Key: BBEditSerialNumber:14.0"
             }
         },
+        "BBEditRegisteredOwner:15.0": {
+            "title": "Registered Owner Name - Version 15.x",
+            "description": "Sets the owner name for BBEdit 15.x",
+            "propertyOrder": 61,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ],
+            "options": {
+                "infoText": "Key: BBEditRegisteredOwner:15.0"
+            }
+        },
+        "BBEditSerialNumber:15.0": {
+            "title": "Serial Number - Version 15.x",
+            "description": "Sets serial number for BBedit 15.x",
+            "propertyOrder": 62,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ],
+            "options": {
+                "infoText": "Key: BBEditSerialNumber:15.0"
+            }
+        },
         "SUEnableAutomaticChecks": {
             "title": "Enable Automatic Software Update Checks",
             "description": "Defaults to true. Set to false to disable automatic updates.",
